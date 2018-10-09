@@ -3,6 +3,7 @@
     <app-header/>
     <app-content/>
     <app-footer/>
+    <app-cookies/>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 const AppContent = () => import("@/components/AppContent")
 const AppHeader = () => import("@/components/AppHeader")
 const AppFooter = () => import("@/components/AppFooter")
+const AppCookies = () => import("@/components/AppCookies")
 
 export default {
   name: "App",
@@ -17,6 +19,7 @@ export default {
     AppContent,
     AppHeader,
     AppFooter,
+    AppCookies,
   },
 }
 </script>
