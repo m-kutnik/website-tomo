@@ -123,11 +123,11 @@ header {
 }
 
 .has-shadow {
-  box-shadow: 0px 4px 5px 1px #f5f5f5;
+  box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.15);
 }
 
 .router-link-exact-active {
-  background: #000;
+  background: #363636;
   color: #fff;
 }
 
